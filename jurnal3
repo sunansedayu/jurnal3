@@ -1,0 +1,24 @@
+# jurnal3
+package jurnal3;
+import java.util.Scanner;
+public class Jurnal3 {
+    
+    public static void main(String[] args) {
+      Scanner masuk = new Scanner(System.in);
+        System.out.println("input  : ");
+        int a = masuk.nextInt();
+        int hasil = 1;
+        String faktor="";
+        for (int i=a; i>0;i--){
+            hasil=hasil*i;
+            faktor=faktor+i;
+            if(i!=1){
+                faktor=faktor+"x";
+                
+            }
+            System.out.println("output :"+faktor+"="+hasil);
+        }
+        System.out.println("Output : "+hasil);
+    }
+    
+}
