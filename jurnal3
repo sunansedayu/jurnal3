@@ -19,6 +19,7 @@ public class Jurnal3 {
             System.out.println("output :"+faktor+"="+hasil);
         }
         System.out.println("Output : "+hasil);
+        System.out.println("Output : "+hasil);
     }
     
 }
